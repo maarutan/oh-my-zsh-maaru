@@ -1,1 +1,4 @@
-/home/maaru/.zsh/func_init.zsh
+# functions
+for file in $HOME/.zsh/functions/*.zsh; do
+    source "$file"
+done
