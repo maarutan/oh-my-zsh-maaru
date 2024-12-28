@@ -1,0 +1,1 @@
+/home/maaru/.zsh/func_init.zsh

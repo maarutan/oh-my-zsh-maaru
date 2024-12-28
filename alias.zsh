@@ -1,0 +1,1 @@
+/home/maaru/.zsh/alias.zsh
