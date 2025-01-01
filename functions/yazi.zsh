@@ -8,3 +8,10 @@ function yazi() {
 
     rm -f -- "$tmp"
 }
+
+if [[ -n "$YAZI_ID" ]]; then
+	function _yazi_cd() {
+		ya emit cd "$PWD"
+	}
+	add-zsh-hook zshexit _yazi_cd
+fi
